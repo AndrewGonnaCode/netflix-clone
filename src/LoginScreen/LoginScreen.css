@@ -1,0 +1,130 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+.loginScreen__button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e50914;
+  font-size: 1rem;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 8px;
+}
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  padding-left: 20px;
+  object-fit: contain;
+  width: 150px;
+}
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.loginScreen__body {
+  position: absolute;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+.loginScreen__body > h1 {
+  margin-bottom: 20px;
+  font-size: 3.125rem;
+}
+.loginScreen__body > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.loginScreen__body > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline: none;
+  width: 30%;
+  max-width: 600px;
+  height: 50px;
+  border: none;
+}
+.loginScreen__getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+.loginScreen__input {
+  margin: 20px;
+}
+
+.loginScreen__panel {
+  background-color: #111;
+  border-bottom: 3px solid #3d3d3d;
+}
+.loginScreen__tabs {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.loginScreen__tab {
+  color: #999;
+  cursor: pointer;
+  padding: 1.5rem 0;
+}
+.loginScreen__tab:hover {
+  color: #fff;
+}
+.loginScreen__tab > i {
+  margin-bottom: 15px;
+}
+.tabs__content {
+  margin: auto;
+  max-width: 70%;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+.loginScreen__questions {
+  padding: 50px;
+}
+.loginScreen__questions > h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+.questions__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

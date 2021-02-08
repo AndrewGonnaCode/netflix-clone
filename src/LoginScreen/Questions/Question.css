@@ -1,0 +1,36 @@
+.question {
+  color: #fff;
+  max-width: 850px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  width: 100%;
+}
+.question__header {
+  background-color: rgba(68, 65, 65, 0.719);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  align-items: center;
+  padding: 10px 20px;
+}
+.question__body {
+  background-color: rgba(68, 65, 65, 0.719);
+  padding: 20px;
+  transition: all 0.4s ease-in;
+  transform: scale(0);
+  display: none;
+}
+.show {
+  display: block;
+  transition: all 0.4s ease-in;
+  transform: scale(1);
+}
+.question__header > p,
+.question__body > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.MuiSvgIcon-root {
+  font-size: 2.3rem !important;
+  color: #fff;
+}

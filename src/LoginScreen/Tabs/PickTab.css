@@ -1,0 +1,39 @@
+.pickTab {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.pickTab__info > p {
+  font-size: 1.6rem;
+  font-weight: 00;
+  margin: 50px 0;
+}
+.pickTab__info {
+  align-items: center;
+  text-align: center;
+}
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.table thead th {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.table tbody tr td {
+  color: #999;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+
+.table tbody tr td:first-child {
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #222;
+}

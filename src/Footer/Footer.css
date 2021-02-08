@@ -1,0 +1,60 @@
+.footer {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  font-size: 0.9 rem;
+  color: #999;
+  margin-right: auto;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.footer__cols {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.footer__cols > ul {
+  list-style: none;
+}
+.footer > h3 {
+  margin-bottom: 25px;
+}
+.footer > h3 > span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer__cols > ul > li {
+  padding: 10px;
+  cursor: pointer;
+}
+.footer__cols > ul > li:hover {
+  text-decoration: underline;
+}
+.footer h6 {
+  font-size: 0.9rem;
+}
+
+.footer__select > select {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 1.2 rem;
+  color: #999;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #999;
+  padding: 15px 10px;
+  width: 150px;
+  cursor: pointer;
+}
+.footer__select > select > option {
+  color: #999;
+  background: #000;
+  font-size: 1.2 rem;
+}
+.footer p {
+  font-size: 14px;
+}
