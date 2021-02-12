@@ -34,6 +34,7 @@ function SignupScreen() {
             dispatch(toggleLoading(false))
             console.log(authUser)
         }).catch((e)=>{
+            dispatch(toggleLoading(false))
             alert(e.message)
         })
     }
